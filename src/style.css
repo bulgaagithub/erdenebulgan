@@ -18,6 +18,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.amber-500 {
+  color: #f59e0b !important;
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -194,7 +198,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #f59e0b;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,17 +285,16 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #f59e0b;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #f59e0b !important;
 }
 
 @media (max-width: 767px) {
